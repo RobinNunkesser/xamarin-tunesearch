@@ -9,9 +9,9 @@ using Xamarin.Forms;
 
 namespace TuneSearch
 {
-    public partial class MainPage : ContentPage, IOutputBoundary<IEnumerable<TrackEntity>>
+    public partial class MainPage : ContentPage, IOutputBoundary<TracksViewModel>
     {
-        private IInputBoundary<SearchRequest, IEnumerable<TrackEntity>> inputBoundary = new SearchInteractor();
+        private IInputBoundary<SearchRequest, TracksViewModel> inputBoundary = new SearchInteractor();
 
         public MainPage()
         {
@@ -23,27 +23,11 @@ namespace TuneSearch
             base.OnAppearing();
         }
 
-        public void Receive(Response<IEnumerable<TrackEntity>> response)
+        public void Receive(Response<TracksViewModel> response)
         {
             response.Match(async success =>
             {
-                var collections = success.OrderBy(t => t).GroupBy(t => t.collectionName);
-                var viewModel = new TracksViewModel();
-                foreach (var result in collections)
-                {
-                    var collectionViewModel = new CollectionViewModel { LongName = result.Key };
-                    foreach (var track in result)
-                    {
-                        collectionViewModel.Add(new TrackViewModel
-                        {
-                            image = track.artworkUrl100,
-                            text = $"{track.trackNumber}  - {track.trackName}",
-                            detail = track.artistName
-                        });
-                    }
-                    viewModel.items.Add(collectionViewModel);
-                }
-                await Navigation.PushAsync(new TracksPage(viewModel));
+                await Navigation.PushAsync(new TracksPage(success));
             }, failure =>
             {
                 // Handle Errpr
