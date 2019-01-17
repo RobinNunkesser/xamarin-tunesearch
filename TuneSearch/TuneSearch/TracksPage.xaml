@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="TuneSearch.TracksPage">
+    <ContentPage.Content>
+        <ListView x:Name="listView" 
+         ItemsSource="{Binding items}" IsGroupingEnabled="true" GroupDisplayBinding="{Binding LongName}"
+         HasUnevenRows="true">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" HeightRequest="90"
+                             VerticalOptions="FillAndExpand">
+                            <Image Source="{Binding image}" WidthRequest="90"
+                                 HeightRequest="90" />
+                            <StackLayout Orientation="Vertical"
+                                 HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding text}"
+                                     FontAttributes="Bold"
+                                     HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="Start" />
+                                <Label Text="{Binding detail}"
+                                     HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="End" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>       
+    </ContentPage.Content>
+</ContentPage>
