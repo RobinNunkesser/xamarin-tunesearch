@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TuneSearch {
+namespace TuneSearch.Resx {
     using System;
     using System.Reflection;
     
@@ -30,7 +30,7 @@ namespace TuneSearch {
         internal static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
-                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("TuneSearch.AppResources", typeof(AppResources).Assembly);
+                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("TuneSearch.Resx.AppResources", typeof(AppResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -44,6 +44,42 @@ namespace TuneSearch {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        internal static string TitleSearch {
+            get {
+                return ResourceManager.GetString("TitleSearch", resourceCulture);
+            }
+        }
+        
+        internal static string ButtonSearch {
+            get {
+                return ResourceManager.GetString("ButtonSearch", resourceCulture);
+            }
+        }
+        
+        internal static string HintSearch {
+            get {
+                return ResourceManager.GetString("HintSearch", resourceCulture);
+            }
+        }
+        
+        internal static string TitleTracks {
+            get {
+                return ResourceManager.GetString("TitleTracks", resourceCulture);
+            }
+        }
+        
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        internal static string OK {
+            get {
+                return ResourceManager.GetString("OK", resourceCulture);
             }
         }
     }

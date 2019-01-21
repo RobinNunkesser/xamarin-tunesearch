@@ -12,4 +12,22 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="TitleSearch">
+        <value>Suche</value>
+    </data>
+    <data name="ButtonSearch">
+        <value>Suchen</value>
+    </data>
+    <data name="HintSearch">
+        <value>Suchbegriff</value>
+    </data>
+    <data name="TitleTracks">
+        <value>Tracks</value>
+    </data>
+    <data name="Error">
+        <value>Fehler</value>
+    </data>
+    <data name="OK">
+        <value>OK</value>
+    </data>
 </root>
