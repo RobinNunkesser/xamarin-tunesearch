@@ -2,11 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
      xmlns:local="clr-namespace:TuneSearch"
-     xmlns:i18n="clr-namespace:TuneSearch.Common;assembly=TuneSearch"        
-             x:Class="TuneSearch.MainPage"
-             Title="{i18n:Translate TitleSearch}">
-    <StackLayout>
-        <Entry x:Name="searchTermEntry" Placeholder="{i18n:Translate HintSearch}" Margin="8"/>
-        <Button Text="{i18n:Translate ButtonSearch}" Clicked="Handle_Search_Clicked"/>
-    </StackLayout>
+     xmlns:i18n="clr-namespace:TuneSearch.Common;assembly=TuneSearch"
+     x:Class="TuneSearch.MainPage" Title="{i18n:Translate TitleSearch}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Info"
+             Clicked="Handle_Info_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="searchTermEntry"
+                 Placeholder="{i18n:Translate HintSearch}" Margin="8" />
+            <Button Text="{i18n:Translate ButtonSearch}"
+                 Clicked="Handle_Search_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

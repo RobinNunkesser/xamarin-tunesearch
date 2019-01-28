@@ -15,6 +15,11 @@
     <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="licenses.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Condition=" '$(EnableDefaultEmbeddedResourceItems)' == 'true' " Update="Resx\AppResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
@@ -44,5 +49,13 @@
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Resx\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="licenses.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="licenses.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

@@ -36,5 +36,11 @@ namespace TuneSearch
             var term = searchTermEntry.Text;
             inputBoundary.Send(new SearchRequest { term = term }, this);
         }
+
+        async void Handle_Info_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new LicensesPage());
+        }
+
     }
 }
