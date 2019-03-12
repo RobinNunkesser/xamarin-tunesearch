@@ -14,11 +14,6 @@ namespace TuneSearch
     {
         const string Url = "https://itunes.apple.com/search";
 
-        public ITunesSearchGateway()
-        {
-
-        }
-
         public async Task<Response<IEnumerable<TrackEntity>>> GetSongs(string term)
         {
             var client = new HttpClient();

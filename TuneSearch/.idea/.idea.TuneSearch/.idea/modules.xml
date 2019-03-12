@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.TuneSearch/TuneSearch.Android.iml" filepath="$PROJECT_DIR$/.idea/.idea.TuneSearch/TuneSearch.Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/.idea.TuneSearch/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.TuneSearch/riderModule.iml" />
     </modules>
   </component>

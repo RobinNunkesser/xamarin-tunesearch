@@ -1,42 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.0.3.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.design/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.transition/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/27.0.2.1/proguard" t="Include">
-      <e p="proguard.txt" t="Include" />
-    </e>
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TuneSearch" t="IncludeRecursive">
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
-        <e p="AppResources.Designer.cs" t="Include" />
-        <e p="AppResources.resx" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CollectionViewModel.cs" t="Include" />
         <e p="Common" t="Include">
           <e p="IInputBoundary.cs" t="Include" />
+          <e p="ILocalize.cs" t="Include" />
           <e p="IOutputBoundary.cs" t="Include" />
-          <e p="Request.cs" t="Include" />
+          <e p="IPresenter.cs" t="Include" />
           <e p="Response.cs" t="Include" />
+          <e p="TranslateExtension.cs" t="Include" />
         </e>
         <e p="ITunesSearchGateway.cs" t="Include" />
+        <e p="licenses.html" t="Include" />
+        <e p="LicensesPage.xaml" t="Include" />
+        <e p="LicensesPage.xaml.cs" t="Include" />
         <e p="MainPage.xaml" t="Include" />
         <e p="MainPage.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -47,9 +30,20 @@
           </e>
         </e>
         <e p="ResultEntity.cs" t="Include" />
+        <e p="Resx" t="Include">
+          <e p="AppResources.de.Designer.cs" t="Include" />
+          <e p="AppResources.de.resx" t="Include" />
+          <e p="AppResources.Designer.cs" t="Include" />
+          <e p="AppResources.resx" t="Include" />
+        </e>
         <e p="SearchInteractor.cs" t="Include" />
         <e p="SearchRequest.cs" t="Include" />
         <e p="TrackEntity.cs" t="Include" />
+        <e p="TrackPresenter.cs" t="Include" />
+        <e p="TracksPage.xaml" t="Include" />
+        <e p="TracksPage.xaml.cs" t="Include" />
+        <e p="TracksViewModel.cs" t="Include" />
+        <e p="TrackViewModel.cs" t="Include" />
         <e p="TuneSearch.csproj" t="IncludeRecursive" />
       </e>
       <e p="TuneSearch.Android" t="IncludeRecursive">
@@ -57,6 +51,7 @@
           <e p="AboutAssets.txt" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Localize.cs" t="Include" />
         <e p="MainActivity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
@@ -129,6 +124,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entitlements.plist" t="Include" />
         <e p="Info.plist" t="Include" />
+        <e p="Localize.cs" t="Include" />
         <e p="Main.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
@@ -141,7 +137,9 @@
       </e>
       <e p="TuneSearch.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_TuneSearch.770895672.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Android/sdk/platforms/android-27/data/res" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Android/sdk/sources/android-27" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_TuneSearch.770895672.00" t="ExcludeRecursive" />
   </component>
 </project>

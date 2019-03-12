@@ -7,6 +7,11 @@ namespace TuneSearch
 {
     public partial class TracksPage : ContentPage
     {
+        public TracksPage()
+        {
+
+        }
+
         public TracksPage(object bindingContext)
         {
             InitializeComponent();

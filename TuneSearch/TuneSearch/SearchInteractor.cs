@@ -7,10 +7,6 @@ namespace TuneSearch
 {
     public class SearchInteractor : IInputBoundary<SearchRequest, TracksViewModel>
     {
-        public SearchInteractor()
-        {
-        }
-
         public async void Send(SearchRequest request,IOutputBoundary <TracksViewModel> outputBoundary)
         {
             var gatewayResponse = await new ITunesSearchGateway().GetSongs(request.term);

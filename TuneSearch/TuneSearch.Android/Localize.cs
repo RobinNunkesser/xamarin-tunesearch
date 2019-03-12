@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using System.Threading;
 using System.Globalization;
+using TuneSearch.Common;
 
 [assembly: Dependency(typeof(TuneSearch.Droid.Localize))]
 
