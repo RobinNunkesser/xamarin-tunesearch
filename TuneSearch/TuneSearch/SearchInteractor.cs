@@ -14,7 +14,7 @@ namespace TuneSearch
                 var viewModel = new TracksViewModel();
                 foreach (var result in collections)
                 {
-                    var collectionViewModel = new CollectionViewModel { LongName = result.Key };
+                    var collectionViewModel = new SectionViewModel<TrackViewModel> { LongName = result.Key };
                     foreach (var track in result)
                     {
                         collectionViewModel.Add(new TrackPresenter().present(track));
