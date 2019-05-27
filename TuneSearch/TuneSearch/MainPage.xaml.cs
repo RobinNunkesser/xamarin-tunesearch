@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TuneSearch.Common;
-using TuneSearch.Resx;
+﻿using TuneSearch.Resx;
 using Xamarin.Forms;
+using BasicCleanArch;
 
 namespace TuneSearch
 {
-    public partial class MainPage : ContentPage, IOutputBoundary<TracksViewModel>
+    public partial class MainPage : ContentPage, IDisplayer<TracksViewModel>
     {
-        private IInputBoundary<SearchRequest, TracksViewModel> inputBoundary = new SearchInteractor();
+        private IUseCase<SearchRequest, TracksViewModel> _interactor = new SearchInteractor();
 
         public MainPage()
         {
@@ -24,7 +18,7 @@ namespace TuneSearch
             base.OnAppearing();
         }
 
-        public void Receive(Response<TracksViewModel> response)
+        public void Display(Result<TracksViewModel> response)
         {
             response.Match(
             async success => await Navigation.PushAsync(new TracksPage(success)),
@@ -34,7 +28,7 @@ namespace TuneSearch
         void Handle_Search_Clicked(object sender, System.EventArgs e)
         {
             var term = searchTermEntry.Text;
-            inputBoundary.Send(new SearchRequest { term = term }, this);
+            _interactor.Execute(new SearchRequest { term = term }, this);
         }
 
         async void Handle_Info_Clicked(object sender, System.EventArgs e)

@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using TuneSearch.Common;
+using BasicCleanArch;
 
 namespace TuneSearch
 {
@@ -14,7 +14,7 @@ namespace TuneSearch
     {
         const string Url = "https://itunes.apple.com/search";
 
-        public async Task<Response<IEnumerable<TrackEntity>>> GetSongs(string term)
+        public async Task<Result<IEnumerable<TrackEntity>>> GetSongs(string term)
         {
             var client = new HttpClient();
             var media = new MediaTypeWithQualityHeaderValue("application/json");
@@ -30,11 +30,11 @@ namespace TuneSearch
                 httpResponse.EnsureSuccessStatusCode();
                 var jsonObject = JObject.Parse(await httpResponse.Content.ReadAsStringAsync());
                 var tracks = JsonConvert.DeserializeObject<ResultEntity>(jsonObject.ToString());
-                return new Response< IEnumerable < TrackEntity >> (tracks.results);
+                return new Result< IEnumerable < TrackEntity >> (tracks.results);
             }
             catch (Exception ex)
             {
-                return new Response<IEnumerable<TrackEntity>>(ex);
+                return new Result<IEnumerable<TrackEntity>>(ex);
             } 
             finally {
                 client.Dispose();

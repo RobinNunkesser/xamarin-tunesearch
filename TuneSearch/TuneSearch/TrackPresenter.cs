@@ -1,5 +1,5 @@
 ﻿using System;
-using TuneSearch.Common;
+using BasicCleanArch;
 
 namespace TuneSearch
 {

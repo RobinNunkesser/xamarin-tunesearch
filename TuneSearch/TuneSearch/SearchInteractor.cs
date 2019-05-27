@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using TuneSearch.Common;
+﻿using System.Linq;
+using BasicCleanArch;
 
 namespace TuneSearch
 {
-    public class SearchInteractor : IInputBoundary<SearchRequest, TracksViewModel>
+    public class SearchInteractor : IUseCase<SearchRequest, TracksViewModel>
     {
-        public async void Send(SearchRequest request,IOutputBoundary <TracksViewModel> outputBoundary)
+        public async void Execute(SearchRequest request,IDisplayer <TracksViewModel> outputBoundary)
         {
             var gatewayResponse = await new ITunesSearchGateway().GetSongs(request.term);
             gatewayResponse.Match(success =>
@@ -23,10 +21,10 @@ namespace TuneSearch
                     }
                     viewModel.items.Add(collectionViewModel);
                 }
-                outputBoundary.Receive(new Response<TracksViewModel>(viewModel));
+                outputBoundary.Display(new Result<TracksViewModel>(viewModel));
             }, failure =>
             {
-                outputBoundary.Receive(new Response<TracksViewModel>(failure));
+                outputBoundary.Display(new Result<TracksViewModel>(failure));
             });
         }
     }
