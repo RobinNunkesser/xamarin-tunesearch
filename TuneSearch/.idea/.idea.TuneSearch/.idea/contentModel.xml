@@ -53,6 +53,7 @@
         </e>
         <e p="SearchInteractor.cs" t="Include" />
         <e p="SearchRequest.cs" t="Include" />
+        <e p="SectionViewModel.cs" t="Include" />
         <e p="TrackEntity.cs" t="Include" />
         <e p="TrackPresenter.cs" t="Include" />
         <e p="TracksPage.xaml" t="Include" />

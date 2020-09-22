@@ -1,6 +1,5 @@
 ﻿using TuneSearch.Resx;
 using Xamarin.Forms;
-using BasicCleanArch;
 using TuneSearch.Common;
 using System.Collections.Generic;
 using TuneSearch.Core;
@@ -8,9 +7,8 @@ using TuneSearch.Infrastructure.Adapters;
 
 namespace TuneSearch
 {
-    public partial class MainPage : ContentPage, IDisplayer<TracksViewModel>
+    public partial class MainPage : ContentPage
     {
-        private IUseCase<SearchRequest, TracksViewModel> _interactor = new SearchInteractor();
         private ICommandHandler<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksCommand(new TunesSearchEngineAdapter());
 
         public MainPage()
@@ -23,17 +21,8 @@ namespace TuneSearch
             base.OnAppearing();
         }
 
-        public void Display(BasicCleanArch.Result<TracksViewModel> response)
-        {
-            response.Match(
-            async success => await Navigation.PushAsync(new TracksPage(success)),
-            async failure => await DisplayAlert(AppResources.Error, failure.Message, AppResources.OK));
-        }
-
         void Handle_Search_Clicked(object sender, System.EventArgs e)
         {
-            //var term = searchTermEntry.Text;
-            //_interactor.Execute(new SearchRequest { term = term }, this);
             _command.Execute(new SearchTracksDTO { Term = searchTermEntry.Text },successHandler,errorHandler);
         }
 
