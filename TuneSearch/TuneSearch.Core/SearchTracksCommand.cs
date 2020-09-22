@@ -23,12 +23,13 @@ namespace TuneSearch.Core
 
             var mappedResult = result.Map(tracks =>
             {
-                var collectionsList = new List<CollectionEntity>(); 
+                var collectionsList = new List<CollectionEntity>();
                 var collections = tracks.OrderBy(t => t).GroupBy(t => t.CollectionName);
                 foreach (var collection in collections)
                 {
-                    var collectionEntity = new CollectionEntity() {
-                        Name = collection.Key                        
+                    var collectionEntity = new CollectionEntity()
+                    {
+                        Name = collection.Key
                     };
                     foreach (var track in collection)
                     {

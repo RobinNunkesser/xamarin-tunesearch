@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
     <PackageReference Include="BasicCleanArch" Version="0.2.0" />
   </ItemGroup>
@@ -58,5 +58,10 @@
     <None Update="licenses.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TuneSearch.Common\TuneSearch.Common.csproj" />
+    <ProjectReference Include="..\TuneSearch.Core\TuneSearch.Core.csproj" />
+    <ProjectReference Include="..\TuneSearch.Infrastructure\TuneSearch.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

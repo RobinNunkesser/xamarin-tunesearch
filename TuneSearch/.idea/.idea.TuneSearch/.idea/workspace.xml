@@ -23,39 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1720e471-c2e6-4125-9ca4-5f910c31f55c" name="Default Changelist" comment="Infrastructure with generated class">
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Core.Tests/TuneSearch.Core.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Core.Tests/UnitTest1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Core/CollectionEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Core/TrackEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/Adapters/TuneMappings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/Adapters/TunesSearchEngineAdapter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/SearchAPIResults.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/animated_vector_drawable_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/animated_vector_drawable_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/appcompat_v7_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/appcompat_v7_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/cardview_v7_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/cardview_v7_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/common_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/common_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/common_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/common_1_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/design_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/design_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/mediarouter_v7_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/mediarouter_v7_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/palette_v7_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/palette_v7_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/recyclerview_v7_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/recyclerview_v7_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/runtime_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/runtime_1_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_annotations_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_annotations_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_compat_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_compat_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_core_ui_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_core_ui_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_core_utils_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_core_utils_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_fragment_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_fragment_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_media_compat_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_media_compat_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_v4_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_v4_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_vector_drawable_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/support_vector_drawable_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/transition_27_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/libraries/transition_27_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/TuneSearch.Android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/TuneSearch.Android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneSearch.Infrastructure/ITunesSearchAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/ITunesSearchAPI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.Common/TuneSearch.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Common/TuneSearch.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.Core/SearchTracksCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Core/SearchTracksCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.Core/TuneSearch.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Core/TuneSearch.Core.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TuneSearch.Infrastructure/TuneSearch.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/TuneSearch.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneSearch.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch/TrackViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/TrackViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch/TuneSearch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/TuneSearch.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +128,7 @@
       <workItem from="1600714585611" duration="281000" />
       <workItem from="1600714969526" duration="284000" />
       <workItem from="1600716243079" duration="2249000" />
-      <workItem from="1600775115262" duration="2576000" />
+      <workItem from="1600775115262" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="Infrastructure with generated class">
       <created>1600776660264</created>

@@ -35,7 +35,7 @@
         <e p="MainPage.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
+            <e p="netstandard2.1" t="Include">
               <e p="App.xaml.g.cs" t="Include" />
               <e p="LicensesPage.xaml.g.cs" t="Include" />
               <e p="MainPage.xaml.g.cs" t="Include" />
@@ -126,6 +126,9 @@
         <e p="ICommandHandler.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TuneSearch.Common.AssemblyInfo.cs" t="Include" />
+            </e>
             <e p="netstandard2.1" t="Include">
               <e p="TuneSearch.Common.AssemblyInfo.cs" t="Include" />
             </e>
@@ -140,6 +143,9 @@
         <e p="CollectionEntity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TuneSearch.Core.AssemblyInfo.cs" t="Include" />
+            </e>
             <e p="netstandard2.1" t="Include">
               <e p="TuneSearch.Core.AssemblyInfo.cs" t="Include" />
             </e>
@@ -175,6 +181,9 @@
         <e p="ITunesSearchAPI.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TuneSearch.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
             <e p="netstandard2.1" t="Include">
               <e p="TuneSearch.Infrastructure.AssemblyInfo.cs" t="Include" />
             </e>
