@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace TuneSearch
 {
     public class TracksViewModel
     {
-        public ObservableCollection<SectionViewModel<TrackViewModel>> items { get; set; }
+        public List<SectionViewModel<TrackViewModel>> items { get; set; }
 
         public TracksViewModel()
         {
-            items = new ObservableCollection<SectionViewModel<TrackViewModel>>();
+            items = new List<SectionViewModel<TrackViewModel>>();
         }
     }
 }

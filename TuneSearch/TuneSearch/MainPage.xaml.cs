@@ -4,6 +4,7 @@ using TuneSearch.Common;
 using System.Collections.Generic;
 using TuneSearch.Core;
 using TuneSearch.Infrastructure.Adapters;
+using System.Linq;
 
 namespace TuneSearch
 {
@@ -33,24 +34,10 @@ namespace TuneSearch
 
         private async void successHandler(List<CollectionEntity> collections)
         {
-            var viewModel = new TracksViewModel();
-
-            foreach (var collection in collections)
+            var viewModel = new TracksViewModel
             {
-                var collectionViewModel = new SectionViewModel<TrackViewModel> { LongName = collection.Name };
-                foreach (var track in collection.Tracks)
-                {
-                    collectionViewModel.Add(new TrackViewModel()
-                    {
-                        image = track.ArtworkUrl100,
-                        text = $"{track.TrackNumber}  - {track.TrackName}",
-                        detail = track.ArtistName
-                    });
-                }
-                viewModel.items.Add(collectionViewModel);
-            }
-
-
+                items = collections.Select(collection => collection.ToSectionViewModel()).ToList()
+            };
             await Navigation.PushAsync(new TracksPage(viewModel));
         }
 
