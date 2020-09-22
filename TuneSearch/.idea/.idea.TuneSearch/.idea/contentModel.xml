@@ -27,7 +27,6 @@
           <e p="ILocalize.cs" t="Include" />
           <e p="TranslateExtension.cs" t="Include" />
         </e>
-        <e p="ITunesSearchGateway.cs" t="Include" />
         <e p="licenses.html" t="Include" />
         <e p="LicensesPage.xaml" t="Include" />
         <e p="LicensesPage.xaml.cs" t="Include" />
@@ -44,18 +43,13 @@
             </e>
           </e>
         </e>
-        <e p="ResultEntity.cs" t="Include" />
         <e p="Resx" t="Include">
           <e p="AppResources.de.Designer.cs" t="Include" />
           <e p="AppResources.de.resx" t="Include" />
           <e p="AppResources.Designer.cs" t="Include" />
           <e p="AppResources.resx" t="Include" />
         </e>
-        <e p="SearchInteractor.cs" t="Include" />
-        <e p="SearchRequest.cs" t="Include" />
         <e p="SectionViewModel.cs" t="Include" />
-        <e p="TrackEntity.cs" t="Include" />
-        <e p="TrackPresenter.cs" t="Include" />
         <e p="TracksPage.xaml" t="Include" />
         <e p="TracksPage.xaml.cs" t="Include" />
         <e p="TracksViewModel.cs" t="Include" />
@@ -69,13 +63,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Localize.cs" t="Include" />
         <e p="MainActivity.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="designtime" t="Include">
-              <e p="Resource.designer.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AndroidManifest.xml" t="Include" />
           <e p="AssemblyInfo.cs" t="Include" />
@@ -115,6 +103,7 @@
             <e p="icon.png" t="Include" />
             <e p="launcher_foreground.png" t="Include" />
           </e>
+          <e p="Resource.designer.cs" t="Include" />
           <e p="values" t="Include">
             <e p="colors.xml" t="Include" />
             <e p="styles.xml" t="Include" />
