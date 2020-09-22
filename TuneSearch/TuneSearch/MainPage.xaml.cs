@@ -24,15 +24,15 @@ namespace TuneSearch
 
         void Handle_Search_Clicked(object sender, System.EventArgs e)
         {
-            _command.Execute(new SearchTracksDTO { Term = searchTermEntry.Text },successHandler,errorHandler);
+            _command.Execute(new SearchTracksDTO { Term = searchTermEntry.Text },SuccessHandler,ErrorHandler);
         }
 
-        private async void errorHandler(System.Exception failure)
+        private async void ErrorHandler(System.Exception failure)
         {
             await DisplayAlert(AppResources.Error, failure.Message, AppResources.OK);
         }
 
-        private async void successHandler(List<CollectionEntity> collections)
+        private async void SuccessHandler(List<CollectionEntity> collections)
         {
             var viewModel = new TracksViewModel
             {
