@@ -42,7 +42,7 @@ namespace TuneSearch
                 {
                     collectionViewModel.Add(new TrackViewModel()
                     {
-                        image = track.ArtworkUrl100.ToString(),
+                        image = track.ArtworkUrl100,
                         text = $"{track.TrackNumber}  - {track.TrackName}",
                         detail = track.ArtistName
                     });
