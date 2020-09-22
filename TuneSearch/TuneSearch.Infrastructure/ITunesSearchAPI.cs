@@ -5,20 +5,30 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using BasicCleanArch;
+using TuneSearch.Common;
 
-namespace TuneSearch
+namespace TuneSearch.Infrastructure
 {
-    public class ITunesSearchGateway
+    public class ITunesSearchAPI
     {
         const string Url = "https://itunes.apple.com/search";
 
-        public async Task<Result<IEnumerable<TrackEntity>>> GetSongs(string term)
+        public async Task<Result<List<TrackEntity>>> GetSongs(string term)
         {
-            var client = new HttpClient();
+            var handler = new HttpClientHandler();
+                handler.ServerCertificateCustomValidationCallback +=
+                   (sender, certificate, chain, sslPolicyErrors) => true;
+
+
+            //            if (hostingEnvironment.IsDevelopment())
+/*            {
+                System.Net.ServicePointManager.ServerCertificateValidationCallback +=
+                   (sender, certificate, chain, sslPolicyErrors) => true;
+            }*/
+
+            var client = new HttpClient(handler);
             var media = new MediaTypeWithQualityHeaderValue("application/json");
-            client.DefaultRequestHeaders.Accept.Add(media);
+            client.DefaultRequestHeaders.Accept.Add(media);            
 
             try
             {
@@ -30,16 +40,16 @@ namespace TuneSearch
                 httpResponse.EnsureSuccessStatusCode();
                 //var jsonObject = JObject.Parse(await httpResponse.Content.ReadAsStringAsync());
                 var tracks = JsonConvert.DeserializeObject<ResultEntity>(await httpResponse.Content.ReadAsStringAsync());
-                return new Result< IEnumerable < TrackEntity >> (tracks.results);
+                return new Result<List<TrackEntity>>(tracks.results);
             }
             catch (Exception ex)
             {
-                return new Result<IEnumerable<TrackEntity>>(ex);
-            } 
-            finally {
+                return new Result<List<TrackEntity>>(ex);
+            }
+            finally
+            {
                 client.Dispose();
             }
-        }  
-
+        }
     }
 }

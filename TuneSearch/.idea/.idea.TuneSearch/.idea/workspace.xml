@@ -1,73 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1720e471-c2e6-4125-9ca4-5f910c31f55c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Common/Result.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Common/TuneSearch.Common.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure.Tests/TuneSearch.Infrastructure.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure.Tests/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/ITunesSearchAPI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/ResultEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/TrackEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuneSearch.Infrastructure/TuneSearch.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TuneSearch/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TuneSearch/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneSearch/TuneSearch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/TuneSearch.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.Android/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.iOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.iOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuneSearch/ITunesSearchGateway.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/ITunesSearchGateway.cs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TuneSearch/CollectionViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <marker date="1547651834044" expanded="false" signature="6:51" ph="..." />
-                <marker date="1547651834044" expanded="true" signature="73:256" ph="{...}" />
-                <marker date="1547651834044" expanded="true" signature="151:254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TuneSearch.Android/Localize.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1548750889674" expanded="false" signature="6:111" ph="..." />
-                <marker date="1548750889674" expanded="true" signature="198:4117" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="256:4115" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="308:504" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="556:1972" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="928:1028" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="1076:1938" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="1107:1243" ph="/* iOS locale not valid .NET culture (eg. &quot;en-ES&quot; : English in Spain) ... */" />
-                <marker date="1548750889674" expanded="true" signature="1263:1577" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="1629:1924" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="2036:3292" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="2280:3179" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="3027:3165" ph="/* add more application-specific cases here (if required) ... */" />
-                <marker date="1548750889674" expanded="true" signature="3361:4107" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="3621:3957" ph="{...}" />
-                <marker date="1548750889674" expanded="true" signature="3805:3943" ph="/* add more application-specific cases here (if required) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TuneSearch.Android/Localize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TuneSearch/CollectionViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuneSearch/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TuneSearch.Android/Localize.cs" />
+        <option value="$PROJECT_DIR$/TuneSearch.Infrastructure/ResultEntity.cs" />
+        <option value="$PROJECT_DIR$/TuneSearch.Infrastructure/ITunesSearchAPI.cs" />
       </list>
     </option>
   </component>
@@ -76,75 +64,22 @@
       <facet id="TuneSearch.Android/invalid/Android Facet - TuneSearch.Android" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
-  </component>
+  <component name="ProjectId" id="1YbgDF4q7hnXZQHRK8FncV0xwCe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TuneSearch" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Packages" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="iPhone 11" />
+    <property name="Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider#Xamarin.iOS: iOS Default" value="iPhone 11" />
+    <property name="DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="Simulator" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Xamarin.iOS.iOS Default">
     <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
@@ -161,16 +96,14 @@
     <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/TuneSearch.iOS/TuneSearch.iOS.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="DEFAULT_IPHONE_DEVICE" value="" />
-      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
-      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <option name="IS_PASS_PARENT_ENVS" value="false" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Xamarin.Android.Android Default" />
       <item itemvalue="Xamarin.iOS.iOS Default" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,61 +117,39 @@
       <workItem from="1547648569663" duration="111000" />
       <workItem from="1548750715212" duration="368000" />
       <workItem from="1558947160619" duration="89000" />
+      <workItem from="1583216590011" duration="687000" />
+      <workItem from="1600714585611" duration="281000" />
+      <workItem from="1600714969526" duration="284000" />
+      <workItem from="1600716243079" duration="1993000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="568000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Captures" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Android Profiler" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="16" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32956383" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="274" key="Rider.ProjectTemplateDialog.Size" timestamp="1600715111069">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="463" y="274" key="Rider.ProjectTemplateDialog.Size/0.23.1440.877@0.23.1440.877" timestamp="1600715111069" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -248,44 +159,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TuneSearch/CollectionViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1547651834044" expanded="false" signature="6:51" ph="..." />
-            <marker date="1547651834044" expanded="true" signature="73:256" ph="{...}" />
-            <marker date="1547651834044" expanded="true" signature="151:254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TuneSearch.Android/Localize.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1548750889674" expanded="false" signature="6:111" ph="..." />
-            <marker date="1548750889674" expanded="true" signature="198:4117" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="256:4115" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="308:504" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="556:1972" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="928:1028" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="1076:1938" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="1107:1243" ph="/* iOS locale not valid .NET culture (eg. &quot;en-ES&quot; : English in Spain) ... */" />
-            <marker date="1548750889674" expanded="true" signature="1263:1577" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="1629:1924" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="2036:3292" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="2280:3179" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="3027:3165" ph="/* add more application-specific cases here (if required) ... */" />
-            <marker date="1548750889674" expanded="true" signature="3361:4107" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="3621:3957" ph="{...}" />
-            <marker date="1548750889674" expanded="true" signature="3805:3943" ph="/* add more application-specific cases here (if required) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
