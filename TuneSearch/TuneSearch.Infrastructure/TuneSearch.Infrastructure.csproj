@@ -11,4 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TuneSearch.Common\TuneSearch.Common.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Adapters\" />
+  </ItemGroup>
 </Project>
