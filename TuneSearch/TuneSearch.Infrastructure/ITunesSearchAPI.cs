@@ -14,7 +14,7 @@ namespace TuneSearch.Infrastructure
     {
         const string Url = "https://itunes.apple.com/search";
 
-        public async Task<Result<List<Result>>> GetSongs(string term)
+        public async Task<Result<List<SearchApiResult>>> GetSongs(string term)
         {
             var handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback +=
@@ -36,11 +36,11 @@ namespace TuneSearch.Infrastructure
                 httpResponse.EnsureSuccessStatusCode();
                 var jsonString = await httpResponse.Content.ReadAsStringAsync();
                 var searchApiResults = SearchApiResults.FromJson(jsonString);
-                return new Result<List<Result>>(searchApiResults.Results);
+                return new Result<List<SearchApiResult>>(searchApiResults.Results);
             }
             catch (Exception ex)
             {
-                return new Result<List<Result>>(ex);
+                return new Result<List<SearchApiResult>>(ex);
             }
             finally
             {                

@@ -123,6 +123,7 @@
       </e>
       <e p="TuneSearch.Common" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ICommandHandler.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">
@@ -133,7 +134,43 @@
         <e p="Result.cs" t="Include" />
         <e p="TuneSearch.Common.csproj" t="IncludeRecursive" />
       </e>
+      <e p="TuneSearch.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="CollectionEntity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="TuneSearch.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Ports" t="Include">
+          <e p="ITunesSearchEngine.cs" t="Include" />
+        </e>
+        <e p="PostEntity.cs" t="Include" />
+        <e p="SearchTracksCommand.cs" t="Include" />
+        <e p="SearchTracksDTO.cs" t="Include" />
+        <e p="TrackEntity.cs" t="Include" />
+        <e p="TuneSearch.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TuneSearch.Core.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TuneSearch.Core.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TuneSearch.Core.Tests.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
       <e p="TuneSearch.Infrastructure" t="IncludeRecursive">
+        <e p="Adapters" t="Include">
+          <e p="TuneMappings.cs" t="Include" />
+          <e p="TunesSearchEngineAdapter.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="ITunesSearchAPI.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -143,8 +180,7 @@
             </e>
           </e>
         </e>
-        <e p="ResultEntity.cs" t="Include" />
-        <e p="TrackEntity.cs" t="Include" />
+        <e p="SearchAPIResults.cs" t="Include" />
         <e p="TuneSearch.Infrastructure.csproj" t="IncludeRecursive" />
       </e>
       <e p="TuneSearch.Infrastructure.Tests" t="IncludeRecursive">
@@ -195,6 +231,7 @@
       </e>
       <e p="TuneSearch.sln" t="IncludeFlat" />
     </e>
+    <e p="$USER_HOME$/Library/Android/sdk/platforms/android-27/data/res" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_TuneSearch.1592957569.00" t="ExcludeRecursive" />
