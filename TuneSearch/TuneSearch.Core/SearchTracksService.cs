@@ -7,11 +7,11 @@ using TuneSearch.Core.Ports;
 
 namespace TuneSearch.Core
 {
-    public class SearchTracksCommand : IService<SearchTracksDTO, List<CollectionEntity>>
+    public class SearchTracksService : ISearchTracksService
     {
         private readonly ITunesSearchEngine _searchEngine;
 
-        public SearchTracksCommand(ITunesSearchEngine searchEngine)
+        public SearchTracksService(ITunesSearchEngine searchEngine)
         {
             _searchEngine = searchEngine;
         }

@@ -14,7 +14,7 @@ namespace TuneSearch.Core.Tests
         [Test]
         public async Task Test1Async()
         {
-            var command = new SearchTracksCommand(new TunesSearchEngineAdapter());
+            var command = new SearchTracksService(new TunesSearchEngineAdapter());
             await command.Execute(new SearchTracksDTO() { Term = "Jack+Johnson" }, success =>
             {
                 Assert.AreEqual(50,success.Count);

@@ -5,12 +5,13 @@ using TuneSearch.Core;
 using TuneSearch.Infrastructure.Adapters;
 using System.Linq;
 using ExplicitArchitecture;
+using TuneSearch.Core.Ports;
 
 namespace TuneSearch
 {
     public partial class MainPage : ContentPage
     {
-        private IService<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksCommand(new TunesSearchEngineAdapter());
+        private IService<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksService(new TunesSearchEngineAdapter());
 
         public MainPage()
         {

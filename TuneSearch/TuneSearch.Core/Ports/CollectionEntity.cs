@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TuneSearch.Core
+namespace TuneSearch.Core.Ports
 {
     public class CollectionEntity
     {

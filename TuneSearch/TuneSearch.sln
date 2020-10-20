@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuneSearch.Core", "TuneSear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuneSearch.Core.Tests", "TuneSearch.Core.Tests\TuneSearch.Core.Tests.csproj", "{BB3A8003-3E85-4F4E-A572-429E6046B74C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuneSearch.Core.Ports", "TuneSearch.Core.Ports\TuneSearch.Core.Ports.csproj", "{0FF383A0-FD9A-42D8-8518-C768D4052563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,5 +141,21 @@ Global
 		{BB3A8003-3E85-4F4E-A572-429E6046B74C}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
 		{BB3A8003-3E85-4F4E-A572-429E6046B74C}.AppStore|iPhone.ActiveCfg = Release|Any CPU
 		{BB3A8003-3E85-4F4E-A572-429E6046B74C}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Release|iPhone.Build.0 = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{0FF383A0-FD9A-42D8-8518-C768D4052563}.AppStore|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

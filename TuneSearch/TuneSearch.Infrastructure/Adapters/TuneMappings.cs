@@ -1,4 +1,4 @@
-using TuneSearch.Core;
+using TuneSearch.Core.Ports;
 
 namespace TuneSearch.Infrastructure.Adapters
 {
@@ -12,8 +12,7 @@ namespace TuneSearch.Infrastructure.Adapters
                         TrackName = self.TrackName,
                         TrackNumber = (int)self.TrackNumber,
                         DiscNumber = (int)self.DiscNumber,
-                        ArtworkUrl60 = self.ArtworkUrl60,
-                        ArtworkUrl100 = self.ArtworkUrl100
+                        ArtworkUrl = self.ArtworkUrl100
                     };
 
     }

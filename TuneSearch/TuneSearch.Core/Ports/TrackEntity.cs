@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TuneSearch.Core
+namespace TuneSearch.Core.Ports
 {
     public class TrackEntity : IComparable<TrackEntity>
     {
@@ -10,8 +10,7 @@ namespace TuneSearch.Core
         public string TrackName { get; set; }
         public int TrackNumber { get; set; }
         public int DiscNumber { get; set; }
-        public Uri ArtworkUrl60 { get; set; }
-        public Uri ArtworkUrl100 { get; set; }
+        public Uri ArtworkUrl { get; set; }
 
         public int CompareTo(TrackEntity other)
         {

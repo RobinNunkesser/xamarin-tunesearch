@@ -1,4 +1,4 @@
-namespace TuneSearch.Core
+namespace TuneSearch.Core.Ports
 {
     public class SearchTracksDTO
     {

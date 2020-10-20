@@ -1,4 +1,5 @@
 using TuneSearch.Core;
+using TuneSearch.Core.Ports;
 
 namespace TuneSearch.Infrastructure.Adapters
 {
@@ -11,7 +12,7 @@ namespace TuneSearch.Infrastructure.Adapters
             {
                 collectionViewModel.Add(new TrackViewModel()
                 {
-                    image = track.ArtworkUrl100,
+                    image = track.ArtworkUrl,
                     text = $"{track.TrackNumber}  - {track.TrackName}",
                     detail = track.ArtistName
                 });

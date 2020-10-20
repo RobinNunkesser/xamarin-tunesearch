@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TuneSearch.Core
+namespace TuneSearch.Core.Ports
 {
     public class Class1
     {
