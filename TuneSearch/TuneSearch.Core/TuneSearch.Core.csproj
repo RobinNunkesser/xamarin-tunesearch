@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TuneSearch.Core.Ports\TuneSearch.Core.Ports.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="ExplicitArchitecture" Version="0.1.0" />
+    <PackageReference Include="ExplicitArchitecture.TuneSearchExample.Core.Ports" Version="0.1.0" />
   </ItemGroup>
 </Project>

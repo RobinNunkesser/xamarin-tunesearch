@@ -1,5 +1,5 @@
+using ExplicitArchitecture.TuneSearchExample.Core.Ports;
 using TuneSearch.Core;
-using TuneSearch.Core.Ports;
 
 namespace TuneSearch.Infrastructure.Adapters
 {

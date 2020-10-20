@@ -5,7 +5,7 @@ using TuneSearch.Core;
 using TuneSearch.Infrastructure.Adapters;
 using System.Linq;
 using ExplicitArchitecture;
-using TuneSearch.Core.Ports;
+using ExplicitArchitecture.TuneSearchExample.Core.Ports;
 
 namespace TuneSearch
 {
