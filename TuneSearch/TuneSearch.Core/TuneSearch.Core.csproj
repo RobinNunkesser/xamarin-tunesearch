@@ -10,4 +10,7 @@
   <ItemGroup>
     <Folder Include="Ports\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ExplicitArchitecture" Version="0.1.0" />
+  </ItemGroup>
 </Project>

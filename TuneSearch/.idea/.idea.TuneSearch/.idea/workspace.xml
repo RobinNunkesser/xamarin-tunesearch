@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1720e471-c2e6-4125-9ca4-5f910c31f55c" name="Default Changelist" comment="Infrastructure with generated class">
-      <change afterPath="$PROJECT_DIR$/TuneSearch/TuneMappings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneSearch/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/MainPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneSearch/TracksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TuneSearch/TracksViewModel.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1720e471-c2e6-4125-9ca4-5f910c31f55c" name="Default Changelist" comment="Infrastructure with generated class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +119,7 @@
       <workItem from="1600714585611" duration="281000" />
       <workItem from="1600714969526" duration="284000" />
       <workItem from="1600716243079" duration="2249000" />
-      <workItem from="1600775115262" duration="5017000" />
+      <workItem from="1600775115262" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="Infrastructure with generated class">
       <created>1600776660264</created>

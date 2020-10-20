@@ -6,13 +6,18 @@
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" />
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" />
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.1.1.3/proguard/monoandroid81" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/28.0.0.3/proguard/monoandroid81/proguard.txt" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/28.0.0.3/proguard/monoandroid81/proguard.txt" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.design/28.0.0.3/proguard/monoandroid81/proguard.txt" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/28.0.0.3/proguard/monoandroid81/proguard.txt" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.transition/28.0.0.3/proguard/monoandroid81/proguard.txt" />
-    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/28.0.0.3/proguard/monoandroid81/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.1.1.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.viewmodel/1.1.1.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.compat/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.coordinaterlayout/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.design/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.transition/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.v7.appcompat/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/28.0.0.3/proguard/monoandroid90/proguard.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/proguard/monoandroid90" />
+    <content url="file://$USER_HOME$/.nuget/packages/xamarin.forms/4.8.0.1451/buildTransitive/MonoAndroid10" />
     <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

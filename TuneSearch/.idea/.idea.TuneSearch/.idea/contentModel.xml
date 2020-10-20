@@ -8,15 +8,15 @@
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.0.3.1/proguard" t="Include">
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.1.1.3/proguard/monoandroid81" t="Include">
       <e p="proguard.txt" t="Include" />
     </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.design/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.transition/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/27.0.2.1/proguard/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.design/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.transition/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/28.0.0.3/proguard/monoandroid81/proguard.txt" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TuneSearch" t="IncludeRecursive">

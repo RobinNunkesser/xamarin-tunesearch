@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using TuneSearch.Common;
+using ExplicitArchitecture;
 
 namespace TuneSearch.Core.Ports
 {

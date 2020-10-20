@@ -1,16 +1,16 @@
 ﻿using TuneSearch.Resx;
 using Xamarin.Forms;
-using TuneSearch.Common;
 using System.Collections.Generic;
 using TuneSearch.Core;
 using TuneSearch.Infrastructure.Adapters;
 using System.Linq;
+using ExplicitArchitecture;
 
 namespace TuneSearch
 {
     public partial class MainPage : ContentPage
     {
-        private ICommandHandler<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksCommand(new TunesSearchEngineAdapter());
+        private IService<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksCommand(new TunesSearchEngineAdapter());
 
         public MainPage()
         {

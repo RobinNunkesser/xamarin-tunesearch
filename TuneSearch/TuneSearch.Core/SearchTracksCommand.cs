@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TuneSearch.Common;
+using ExplicitArchitecture;
 using TuneSearch.Core.Ports;
 
 namespace TuneSearch.Core
 {
-    public class SearchTracksCommand : ICommandHandler<SearchTracksDTO, List<CollectionEntity>>
+    public class SearchTracksCommand : IService<SearchTracksDTO, List<CollectionEntity>>
     {
         private readonly ITunesSearchEngine _searchEngine;
 
