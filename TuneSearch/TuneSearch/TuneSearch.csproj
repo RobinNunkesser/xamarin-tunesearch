@@ -57,7 +57,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TuneSearch.Common\TuneSearch.Common.csproj" />
     <ProjectReference Include="..\TuneSearch.Core\TuneSearch.Core.csproj" />
     <ProjectReference Include="..\TuneSearch.Infrastructure\TuneSearch.Infrastructure.csproj" />
   </ItemGroup>

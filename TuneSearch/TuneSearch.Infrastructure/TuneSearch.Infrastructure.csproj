@@ -9,7 +9,6 @@
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TuneSearch.Common\TuneSearch.Common.csproj" />
     <ProjectReference Include="..\TuneSearch.Core\TuneSearch.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
