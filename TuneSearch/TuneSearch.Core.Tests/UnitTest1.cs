@@ -16,12 +16,17 @@ namespace TuneSearch.Core.Tests
         public async Task Test1Async()
         {
             var command = new SearchTracksService(new TunesSearchEngineAdapter());
-            await command.Execute(new SearchTracksDTO() { Term = "Jack+Johnson" }, success =>
+            await command.Execute(new SearchTerm() { Term = "Jack+Johnson" }, success =>
             {
                 Assert.AreEqual(5,success.Count);
             },error => {
             });
             Assert.Pass();
         }
+    }
+
+    internal class SearchTerm : ISearchTerm
+    {
+        public string Term { get; set; }
     }
 }

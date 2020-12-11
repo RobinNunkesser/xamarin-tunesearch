@@ -17,14 +17,14 @@ namespace TuneSearch.Core
             _searchEngine = searchEngine;
         }
 
-        public async Task Execute(SearchTracksDTO commandDto,
-            Action<List<CollectionEntity>> successHandler, Action<Exception> errorHandler)
+        public async Task Execute(ISearchTerm commandDto,
+            Action<List<ICollectionEntity>> successHandler, Action<Exception> errorHandler)
         {
             var result = await _searchEngine.GetSongs(commandDto.Term);
 
             var mappedResult = result.Map(tracks =>
             {
-                var collectionsList = new List<CollectionEntity>();
+                var collectionsList = new List<ICollectionEntity>();
                 var collections = tracks.OrderBy(t => t).GroupBy(t => t.CollectionName);
                 foreach (var collection in collections)
                 {

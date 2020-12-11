@@ -12,6 +12,7 @@ namespace TuneSearch.Infrastructure
     using System.Collections.Generic;
 
     using System.Globalization;
+    using ExplicitArchitecture.TuneSearchExample.Core.Ports;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
@@ -24,8 +25,7 @@ namespace TuneSearch.Infrastructure
         public List<SearchApiResult> Results { get; set; }
     }
 
-    public partial class SearchApiResult
-    {
+    public partial class SearchApiResult { 
         [JsonProperty("wrapperType", NullValueHandling = NullValueHandling.Ignore)]
         public string WrapperType { get; set; }
 

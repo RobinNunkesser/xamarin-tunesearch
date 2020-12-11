@@ -11,7 +11,7 @@ namespace TuneSearch
 {
     public partial class MainPage : ContentPage
     {
-        private IService<SearchTracksDTO, List<CollectionEntity>> _command = new SearchTracksService(new TunesSearchEngineAdapter());
+        private IService<ISearchTerm, List<ICollectionEntity>> _command = new SearchTracksService(new TunesSearchEngineAdapter());
 
         public MainPage()
         {
@@ -25,7 +25,7 @@ namespace TuneSearch
 
         void Handle_Search_Clicked(object sender, System.EventArgs e)
         {
-            _command.Execute(new SearchTracksDTO { Term = searchTermEntry.Text },SuccessHandler,ErrorHandler);
+            _command.Execute(new SearchTerm { Term = searchTermEntry.Text },SuccessHandler,ErrorHandler);
         }
 
         private async void ErrorHandler(System.Exception failure)
@@ -33,7 +33,7 @@ namespace TuneSearch
             await DisplayAlert(AppResources.Error, failure.Message, AppResources.OK);
         }
 
-        private async void SuccessHandler(List<CollectionEntity> collections)
+        private async void SuccessHandler(List<ICollectionEntity> collections)
         {
             var viewModel = new TracksViewModel
             {

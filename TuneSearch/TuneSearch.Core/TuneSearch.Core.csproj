@@ -6,6 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="ExplicitArchitecture" Version="0.1.0" />
-    <PackageReference Include="ExplicitArchitecture.TuneSearchExample.Core.Ports" Version="0.1.0" />
+    <PackageReference Include="ExplicitArchitecture.TuneSearchExample.Core.Ports" Version="0.1.4" />
   </ItemGroup>
 </Project>

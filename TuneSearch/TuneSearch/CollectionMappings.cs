@@ -5,7 +5,7 @@ namespace TuneSearch.Infrastructure.Adapters
 {
     public static class CollectionMappings
     {
-        public static SectionViewModel<TrackViewModel> ToSectionViewModel(this CollectionEntity self)
+        public static SectionViewModel<TrackViewModel> ToSectionViewModel(this ICollectionEntity self)
         {
             var collectionViewModel = new SectionViewModel<TrackViewModel> { LongName = self.Name };
             foreach (var track in self.Tracks)
