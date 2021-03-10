@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Net.Security;
 using System.Threading.Tasks;
 using ExplicitArchitecture;
-using Newtonsoft.Json;
 
 namespace TuneSearch.Infrastructure
 {
@@ -22,7 +22,10 @@ namespace TuneSearch.Infrastructure
                        if (sslPolicyErrors == SslPolicyErrors.None) return true;
                        return sender.RequestUri.Host == "itunes.apple.com";
                    };
-            var client = new HttpClient(handler);
+            var client = new HttpClient(handler)
+            {
+                BaseAddress = new Uri("https://itunes.apple.com/search")
+            };
             var media = new MediaTypeWithQualityHeaderValue("application/json");
             client.DefaultRequestHeaders.Accept.Add(media);            
 
@@ -32,10 +35,7 @@ namespace TuneSearch.Infrastructure
                 var searchTerm = WebUtility.UrlEncode(term);
                 builder.Query = $"entity=song&term={searchTerm}&country=de";
                 var uri = builder.ToString();
-                var httpResponse = await client.GetAsync(uri);
-                httpResponse.EnsureSuccessStatusCode();
-                var jsonString = await httpResponse.Content.ReadAsStringAsync();
-                var searchApiResults = SearchApiResults.FromJson(jsonString);
+                var searchApiResults = await client.GetFromJsonAsync<SearchApiResults>(uri);
                 return new Result<List<SearchApiResult>>(searchApiResults.Results);
             }
             catch (Exception ex)

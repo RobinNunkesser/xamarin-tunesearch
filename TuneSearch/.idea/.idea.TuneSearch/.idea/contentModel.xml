@@ -57,6 +57,7 @@
           <e p="AppResources.Designer.cs" t="Include" />
           <e p="AppResources.resx" t="Include" />
         </e>
+        <e p="SearchTerm.cs" t="Include" />
         <e p="SectionViewModel.cs" t="Include" />
         <e p="TracksPage.xaml" t="Include" />
         <e p="TracksPage.xaml.cs" t="Include" />
@@ -126,7 +127,7 @@
       </e>
       <e p="TuneSearch.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="MockSearchTracksService.cs" t="Include" />
+        <e p="CollectionEntity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -154,7 +155,7 @@
       </e>
       <e p="TuneSearch.Infrastructure" t="IncludeRecursive">
         <e p="Adapters" t="Include">
-          <e p="TuneMappings.cs" t="Include" />
+          <e p="TrackEntity.cs" t="Include" />
           <e p="TunesSearchEngineAdapter.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
