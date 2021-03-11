@@ -144,26 +144,5 @@
         public bool? IsStreamable { get; set; }
     }
 
-    /*public partial class SearchApiResults
-    {
-        public static SearchApiResults FromJson(string json) => JsonConvert.DeserializeObject<SearchApiResults>(json, TuneSearch.Infrastructure.Converter.Settings);
-    }
 
-    public static class Serialize
-    {
-        public static string ToJson(this SearchApiResults self) => JsonConvert.SerializeObject(self, TuneSearch.Infrastructure.Converter.Settings);
-    }
-
-    internal static class Converter
-    {
-        public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-        {
-            MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-            DateParseHandling = DateParseHandling.None,
-            Converters =
-            {
-                new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-            },
-        };
-    }*/
 }

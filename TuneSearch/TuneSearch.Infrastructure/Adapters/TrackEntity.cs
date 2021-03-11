@@ -1,6 +1,5 @@
 ﻿using System;
 using ExplicitArchitecture.TuneSearchExample.Core.Ports;
-using Newtonsoft.Json;
 
 namespace TuneSearch.Infrastructure
 {
