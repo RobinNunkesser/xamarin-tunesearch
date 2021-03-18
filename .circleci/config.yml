@@ -1,0 +1,20 @@
+ version: 2.1
+
+ orbs:
+  win: circleci/windows@2.2.0
+
+ jobs:
+   build:
+     executor: win/default     
+    
+     steps:
+       - checkout
+       - run: 
+           name: Run tests
+           command: |
+             cd TuneSearch/TuneSearch
+             dotnet build
+             cd ../TuneSearch.Core.Tests
+             dotnet test
+             cd ../TuneSearch.Infrastructure.Tests
+             dotnet test
