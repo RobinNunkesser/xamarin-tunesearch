@@ -9,12 +9,6 @@
     
      steps:
        - checkout
-       - run: 
-           name: Run tests
-           command: |
-             cd TuneSearch/TuneSearch
-             dotnet build
-             cd ../TuneSearch.Core.Tests
-             dotnet test
-             cd ../TuneSearch.Infrastructure.Tests
-             dotnet test
+       - run: cd TuneSearch/TuneSearch && dotnet build
+       - run: cd TuneSearch/TuneSearch.Core.Tests && dotnet test
+       - run: cd TuneSearch/TuneSearch.Infrastructure.Tests && dotnet test
