@@ -9,6 +9,7 @@
     <PackageReference Include="ExplicitArchitecture.TuneSearchExample.Core.Ports" Version="0.1.4" />
     <PackageReference Include="System.Text.Json" Version="6.0.0-preview.1.21102.12" />
     <PackageReference Include="System.Net.Http.Json" Version="6.0.0-preview.1.21102.12" />
+    <PackageReference Include="ExplicitArchitecture" Version="0.1.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Adapters\" />

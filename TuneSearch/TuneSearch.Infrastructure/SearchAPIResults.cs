@@ -2,10 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
-    using System.Globalization;
     using System.Text.Json.Serialization;
-    using ExplicitArchitecture.TuneSearchExample.Core.Ports;
 
     public partial class SearchApiResults
     {
