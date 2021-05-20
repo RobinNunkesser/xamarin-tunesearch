@@ -25,7 +25,7 @@ namespace TuneSearch.Core
             var mappedResult = result.Map(tracks =>
             {
                 var collectionsList = new List<ICollectionEntity>();
-                var collections = tracks.OrderBy(t => t).GroupBy(t => t.CollectionName);
+                var collections = tracks.OrderBy(t => t).GroupBy(t => t.ArtistName + " - " + t.CollectionName);
                 foreach (var collection in collections)
                 {
                     var collectionEntity = new CollectionEntity()
