@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ExplicitArchitecture;
-using ExplicitArchitecture.TuneSearchExample.Core.Ports;
+using CommonPorts;
+using MusicPorts;
 
 namespace TuneSearch.Infrastructure.Adapters
 {

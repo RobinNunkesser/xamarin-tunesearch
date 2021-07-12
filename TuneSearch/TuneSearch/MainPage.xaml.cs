@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using TuneSearch.Core;
 using TuneSearch.Infrastructure.Adapters;
 using System.Linq;
-using ExplicitArchitecture;
-using ExplicitArchitecture.TuneSearchExample.Core.Ports;
+using CommonPorts;
+using MusicPorts;
 
 namespace TuneSearch
 {

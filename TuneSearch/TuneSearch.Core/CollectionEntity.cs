@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ExplicitArchitecture.TuneSearchExample.Core.Ports;
+using MusicPorts;
 
 namespace TuneSearch.Core
 {

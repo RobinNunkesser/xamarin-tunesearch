@@ -1,5 +1,5 @@
 ﻿using System;
-using ExplicitArchitecture.TuneSearchExample.Core.Ports;
+using MusicPorts;
 
 namespace TuneSearch.Infrastructure
 {

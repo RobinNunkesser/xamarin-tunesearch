@@ -1,4 +1,4 @@
-using ExplicitArchitecture.TuneSearchExample.Core.Ports;
+using MusicPorts;
 using TuneSearch.Core;
 
 namespace TuneSearch.Infrastructure.Adapters

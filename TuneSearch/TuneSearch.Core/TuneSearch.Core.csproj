@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExplicitArchitecture" Version="0.1.0" />
-    <PackageReference Include="ExplicitArchitecture.TuneSearchExample.Core.Ports" Version="0.1.4" />
+    <None Remove="CommonPorts" />
+    <None Remove="MusicPorts" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommonPorts" Version="0.1.0" />
+    <PackageReference Include="MusicPorts" Version="0.1.4" />
   </ItemGroup>
 </Project>
